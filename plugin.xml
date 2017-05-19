@@ -24,7 +24,9 @@
                 <string>UIInterfaceOrientationLandscapeRight</string>
             </array>
         </config-file>
-        <config-file platform="ios" parent="UIRequiresFullScreen" target="*-Info.plist" mode="delete"/>
+        <config-file parent="UIRequiresFullScreen" target="*-Info.plist">
+            <false />
+        </config-file>
     </platform>
 </plugin>
 
